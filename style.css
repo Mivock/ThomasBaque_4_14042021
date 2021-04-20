@@ -839,6 +839,17 @@ h4 {
 
 }
 
+.col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    font-size: 1.5rem;
+}
+
 .services-h2 {
     display: flex;
     justify-content: center;
