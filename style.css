@@ -534,6 +534,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -702,6 +704,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -917,6 +921,11 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
